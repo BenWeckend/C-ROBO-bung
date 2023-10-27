@@ -10,7 +10,7 @@ int main()
     
     std::cout << "Wie ist dein Name?: ";
     std::cin >> name;
-    std::cout << "Wi alt bist du?: ";
+    std::cout << "Wie alt bist du?: ";
     std::cin >> alter;
     std::cout << "Wie lang ist dein Schlong? (cm): ";
     std::cin >> penislaenge;
