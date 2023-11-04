@@ -1,12 +1,14 @@
 #include <iostream>
 #include <string>
 
+using namespace std;
 int main() {
-	std::string name;
+	
+	short int age = 12;
+	
+	cout << age;
+	 
 
-	std::cout << "What is your name?: ";
-	std::cin >> name;
-
-	const
+	
 	return 0;
 }
