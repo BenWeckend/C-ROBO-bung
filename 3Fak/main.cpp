@@ -8,7 +8,7 @@ int main(){
         std::cout << i <<std::endl;
     }
 
-    std::cout << "Fakultät von " << z << " ist " << r << std::endl;
+    std::cout << "Fakultaet von " << z << " ist " << r << std::endl;
 
     return 0;
 }

@@ -1,0 +1,4 @@
+@startuml
+Ben -> Weckend: test
+
+@enduml
