@@ -16,11 +16,11 @@ public:
 		return balance;
 	}
 
-
 private:
+	bool lossorwin;
+
 	int calculate(euro money) {
 		balance += money;
-		
 		return balance;
 	}
 };
@@ -29,7 +29,7 @@ int main() {
 	char choice;
 	int num = 0;
 	euro amount;
-	bankaccount mainName;
+	bankaccount mainName(1);
 
 	do {
 		std::cout << "\ntransfer money (type t)\nview account balance (type v)\nexit (type x)\nChoice: ";
@@ -42,6 +42,7 @@ int main() {
 			break;
 		case 'v':
 			std::cout << "Balance: " << mainName.balanceAmmount() << " euro" << std::endl;
+			std::cout << mainName.hm;
 		case 'x': break;
 		default:
 			std::cout << "Please enter an valid input!" << std::endl;
